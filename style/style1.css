@@ -1,4 +1,80 @@
 * {
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+/* Nav-Bar */
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(71, 71, 71);
+
+    padding: 1.25rem;
+}
+
+.logo {
+    color: white;
+}
+
+.logo:hover {
+    cursor: pointer;
+    animation: logoAnimation 2s ease-out;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+}
+
+.nav-items {
+    display: inline-block;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+    margin: 7px;
+    font-size: 1.25rem;
+}
+
+.nav-links:hover {
+    text-decoration: underline;
+}
+
+@keyframes logoAnimation {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.15);}
+    100% {transform: scale(1);}
+}
+
+/* Main Image */
+
+.main-image {
+    width: 90vw;
+    height: 80vh;
+
+    margin: 7px auto;
+
+    background-image: url('../images/main-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.main-image:hover {
+    opacity: 0.85;
+}
+
+.main-image h1 {
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    top: 40%;
 }
