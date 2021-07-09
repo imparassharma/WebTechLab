@@ -8,6 +8,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Animations */
+@keyframes scaleUpAnimation {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.15);}
+    100% {transform: scale(1);}
+}
+
 /* Header */
 
 /* Nav-Bar */
@@ -25,7 +32,7 @@ body {
 
 .logo:hover {
     cursor: pointer;
-    animation: logoAnimation 2s ease-out;
+    animation: scaleUpAnimation 2s ease-out;
 }
 
 .nav-bar ul {
@@ -47,12 +54,6 @@ body {
     text-decoration: underline;
 }
 
-@keyframes logoAnimation {
-    0% {transform: scale(1);}
-    50% {transform: scale(1.15);}
-    100% {transform: scale(1);}
-}
-
 /* Main Image */
 
 .main-image {
@@ -66,15 +67,47 @@ body {
     background-position: center;
 }
 
-.main-image:hover {
-    opacity: 0.85;
-}
-
-.main-image h1 {
+.center-text {
     position: relative;
     text-transform: uppercase;
     color: white;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     top: 40%;
+}
+
+.center-text button {
+    padding: 10px 25px;
+    border: none;
+    background-color: rgb(161, 31, 57);
+    color: aliceblue;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.center-text button:hover {
+    animation: scaleUpAnimation 1s ease-in;
+}
+
+/* Footer */
+
+.main-footer {
+    color: white;
+    padding: 15px;
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+}
+
+.main-footer h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    margin: 7px;
 }
