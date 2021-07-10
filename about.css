@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    color: white;
+    background-color: rgb(71, 71, 71);
+    padding: 1rem;
+}
+
+.logo:hover {
+    cursor: pointer;
+    animation: logoAnimation 2s ease-out;
+}
+
+.logo h1{
+    padding-left: 38rem;
+}
+
+.about-us-logo{
+    color: #423F3E;
+    position: relative;
+    left: 42.5rem;
+    top: 0.2rem;
+   
+}
+
+.about-us-logo hr{
+    width: 50rem;
+    position: relative;
+    right: 42rem;
+}
+
+.slide-menu hr{
+    height: 20rem;
+    position: relative;
+    top: 5rem;
+    left: 6rem;
+}
+
+.hr2 hr{
+    height: 20rem;
+    position: relative;
+    top: 5rem;
+    left: 80rem;
+}
+
+
+.slide-menu{
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    margin: 1.2rem;
+    color: #423F3E;
+    font-size: 1.25rem;
+    justify-content: center;
+    position: relative;
+    right: 10rem;
+    
+}
+
+
+.div-item1{
+    text-align: center;
+    width: 25rem;
+    height: 30rem;
+    
+}
+.div-item2{
+    text-align: center;
+    width: 25rem;
+    height: 30rem;
+
+
+}
+.div-item3{
+    text-align: center;
+    width: 25rem;
+    height: 30rem;
+   
+
+}
+.div-item4{
+    text-align: center;
+    width: 20rem;
+    height: 30rem;
+  
+
+}
+
+
+
