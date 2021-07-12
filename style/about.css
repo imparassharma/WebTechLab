@@ -3,7 +3,7 @@ body{
     padding: 0;
     font-family: 'Karla', sans-serif;
     overflow: hidden;
-    background-image: url("images/lappy.jpg");
+    background-image: url("/WebTechLab/images/lappy.jpg");
     background-size: cover;
     background-position: center;
 }
