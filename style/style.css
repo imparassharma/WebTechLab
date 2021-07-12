@@ -1,9 +1,7 @@
-
 * {
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 body {
@@ -40,7 +38,7 @@ body {
 .nav-links {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    margin: 2rem;
+    margin: 1.5rem;
     font-size: 1.25rem;
 }
 
@@ -59,23 +57,19 @@ body {
 
 .main-image {
     width: 100vw;
-    height: 100vh;
-    background-image: url('/WebTechLab/images/wrtingcode.jpg');
+    height: 70vh;
+    background-image: url('../images/wrtingcode.jpg');
     background-position: center;
     background-size: cover;
 }
 
 
 .main-image h1 {
-    width: 62%;
-    position: relative;
     text-transform: uppercase;
-    border: solid red;
+    border: solid red 2px;
     color: rgb(243, 89, 89);
     text-align: center;
-    left: 20rem;
-    top: 10rem;
-    font-size: 6rem;
+    font-size: 2rem;
 }
 
 .main-image span{
