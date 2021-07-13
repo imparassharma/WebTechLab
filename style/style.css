@@ -120,13 +120,14 @@ main {
 }
 
 .quote {
-    margin: 15px auto;
+    background-color: lightgray;
 }
 
 .quote-text {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    padding: 20px 30px;
 }
 
 .quote-text span {
@@ -135,9 +136,14 @@ main {
     margin: 5px 10px 0px 0px;
 }
 
+.sections {
+    margin: 45px 0px;
+}
+
 .sections h1 {
+    color: rgb(151, 28, 28);
     text-align: center;
-    font-size: 35px;
+    font-size: 3rem;
     text-decoration: underline;
     margin: 7px 0px;
 }
@@ -145,6 +151,19 @@ main {
 .sections p {
     font-size: 20px;
     line-height: 30px;
+}
+
+.social-media {
+    margin: 25px 0px;
+}
+
+.icons {
+    margin: 10px;
+}
+
+.icons:hover {
+    cursor: pointer;
+    animation: scaleUpAnimation 2s ease-in-out;
 }
 
 /* Footer */
@@ -163,9 +182,30 @@ main {
 
 .social-media {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    color: black;
 }
 
-.icons {
-    margin: 7px;
+
+@media all and (min-width: 900px) {
+    #ourMission {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .left-side-text {
+        width: 55%;
+    }
+
+    .left-side-text h1 {
+        text-align: left;
+    }
+    
+    .right-side-image {
+        border-radius: 10px;
+        width: 45%;
+        background-image: url('../images/Home/ourMission.jpg');
+        background-position: center;
+        background-size: cover;
+    }
 }
