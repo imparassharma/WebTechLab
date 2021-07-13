@@ -1,0 +1,112 @@
+body{
+    overflow: hidden;
+    background-color: hsl(0, 0%, 0%);
+}
+
+/* Header */
+#contact-header {
+    background-image: none;
+    height: 10vh;
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+}
+
+/* Main */
+main {
+    width: 90vw;
+}
+
+.contact-us h1{
+    color: #f13a3a;
+    font-size: 72px;
+}
+
+.contact-us span {
+    color: white;
+}
+
+.form-line {
+    font-size: 25px;
+    color: white;
+}
+
+/* Main section */
+.main-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.msg {
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+
+/* Form */
+.main{
+    width: 100%;
+    margin: auto auto;
+
+    display: flex;
+    flex-direction: column;
+    border: solid #f13a3a;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 6.5px  rgba(71, 67, 67, 0.212);
+}
+
+input::placeholder{
+    color: rgb(126, 123, 123);
+}
+
+.row {
+    display: block;
+    border: 0.5px solid rgb(226, 219, 219);
+    border-radius: 5px;
+    height: 3rem;
+    width: 90%;
+    margin: 7px auto;
+    outline-color:hsl(246, 40%, 76%);
+
+    caret-color:hsl(248, 32%, 49%);
+}
+
+#full-name, #email {
+    padding: 0px 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+#content {
+    resize: vertical;
+    padding: 0px 15px;
+    font-family: 'Poppins', sans-serif;font-weight: 600;
+}
+
+.text-main {
+    text-align: center;
+}
+
+.text-main span{
+    color: red;
+}
+
+#button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+@media all and (min-width: 800px) {
+    .main-section {
+        flex-direction: row;
+    }
+
+    .msg {
+        width: 25%;
+        text-align: center;
+    }
+}
