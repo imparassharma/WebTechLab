@@ -1,3 +1,6 @@
+
+/* Header */
+
 body{
     margin: 0;
     padding: 0;
@@ -128,6 +131,3 @@ body{
 .slide-menu-item h3:hover{
     color: red;
 }
-
-
-
