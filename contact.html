@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="./style/contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/34ed6ab533.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header id="contact-header">
@@ -18,39 +25,54 @@
                 <ul>
                     <li class="nav-items"><a href="index.html" class="nav-links">Home</a></li>
                     <li class="nav-items"><a href="about.html" class="nav-links">About Us</a></li>
-                    <li class="nav-items"><a href="#" class="nav-links">Contact Us</a></li>
-                    <li class="nav-items"><a href="register.html" class="nav-links">Register</a></li>
+                    <li class="nav-items"><a href="contact.html" class="nav-links">Contact Us</a></li>
+                    <li class="nav-items">
+                        <a href="/register.html"><button class="btn-red" id="reg-btn">Register</button></a>
+                    </li>
                 </ul>
             </nav>
+        </div>
+
+        <div class="main-image">
+            <div class="center-text contact-text">
+                <h1>Co<span>nta</span>ct U<span>s</h1>
+            </div>
         </div>
     </header>
 
     <main>
-        <section class="top-section">
-            <div class="contact-us">
-                <h1>Co<span>nta</span>ct U<span>s</span></h1>
-            </div>
-            <h2 class="form-line">WE ARE HERE FOR YOU!</h2>
-        </section>
-    
-        <section class="main-section">
-            <div class= "main">
-                <form>
-                    <input class="row" id="full-name" type="text" placeholder ="Enter Full Name">
-                    <input class="row" id="email" type="email"placeholder="Email Address">
-                    <textarea rows="10" class="row" id="content" placeholder="Message"></textarea>
-                    <button class="row" id="button" type="submit">SUBMIT</button>
-                </form>
-                <div class="text-main">
-                    <p>You can also ask any <span>question</span> to us on social media</p>
-                </div>
-            </div>
-            <div class="msg">
+        <h1>LETS START A CONVERSATION</h1>
+        <div class="main-container">
+            <section class="left-section">
+                <h2 class="main-line">Get in touch with us and we will answer all your questions!</h2>
                 <p>
-                    Get in touch with us and we will answer each of your questions!
-                </p>
-            </div>
-        </section>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit culpa doloribus molestias magnam, placeat, numquam reprehenderit cumque iusto, veniam a at. Praesentium repellat ex sunt.
+            </section>
+        
+            <section class="right-section">
+                <h2 class="form-line">WE ARE HERE FOR YOU!</h2>
+                <div class= "main">
+                    <form>
+                        <input class="row" id="first-name" type="text" placeholder ="Enter First Name">
+                        <input class="row" id="last-name" type="text" placeholder ="Enter Last Name">
+                        <input class="row" id="email" type="email"placeholder="Email Address">
+                        <textarea id="content" class="row" id="content" placeholder="Message or any questions"></textarea>
+                        <button class="row" id="button" type="submit">SUBMIT</button>
+                    </form>
+                    <div class="text-main">
+                        <p>You can also ask any <span>question</span> to us on social media</p>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
+
+    <footer>
+        <div class="main-footer">
+            <h2>Programmers Hub</h2>
+            <p>programmersHub@gmail.com</p>
+            <p>&copy;ProgrammersHub2021</p>
+        </div>
+    </footer>
 </body>
 </html>

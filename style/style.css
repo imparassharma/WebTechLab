@@ -35,7 +35,7 @@ header {
 }
 
 .logo {
-    width: 80px;
+    width: 90px;
     height: 80px;
 
     background-image: url('../images/logo/logo.png');
@@ -79,10 +79,16 @@ header {
     text-transform: uppercase;
     color: rgb(211, 86, 86);
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     margin-top: 7rem;
     margin: 5rem auto;
     width: 80%;
+
+    border: solid #f13a3a;
+    width: fit-content;
+    padding: 10px 40px;
+    border: #f13a3a solid;
+    font-size: 2rem;
 }
 
 .main-image span{
